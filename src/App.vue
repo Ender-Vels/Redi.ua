@@ -1,9 +1,10 @@
 <script>
 import HeaderSite from './components/Header/HeaderSite.vue'
-
+import HomePage from './components/HomePage.vue';
 export default{
   components:{
-  HeaderSite
+  HeaderSite,
+  HomePage
 },
   data(){
     return{
@@ -16,6 +17,7 @@ export default{
 <template>
   <header>
     <HeaderSite/>
+    <HomePage/>
   </header>
 
   <RouterView />
