@@ -17,9 +17,14 @@ export default{
 <template>
   <header>
     <HeaderSite/>
-    <HomePage/>
   </header>
 
+
+ <body>
+  <HomePage/>
+ </body>
+
+ 
   <RouterView />
 </template>
 

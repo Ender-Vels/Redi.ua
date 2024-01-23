@@ -96,6 +96,7 @@ height: 20px;
     height: 150px;
     width: 180px;
     margin-top: 16px;
+    z-index: 99999;
     
 }
 
