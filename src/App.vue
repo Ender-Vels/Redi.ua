@@ -18,13 +18,7 @@ export default{
   <header>
     <HeaderSite/>
   </header>
-
-
- <body>
   <HomePage/>
- </body>
-
- 
   <RouterView />
 </template>
 
